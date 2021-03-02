@@ -1,0 +1,219 @@
+* {
+    margin:0;
+    padding: 0;
+    
+}
+body {
+    background-color: rgb(2, 128, 200);
+}
+header {
+    background-image: url(../img/fundo1.jpg);
+    background-position: 100%;
+   margin-right: 0;
+    height: 600px;
+    
+}
+header h1 {
+    text-align: center;
+    margin-top: 110px;
+    
+    text-transform: uppercase;
+    color: white;
+    font-size: 70px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+}
+header img {
+margin:20px;
+}
+main {
+    width: 100%;
+}
+.center {
+   
+    margin-left:50px;
+    justify-content: center;
+}
+.dark {
+    background-color: black;
+}
+.section-services {
+    display:flex;
+}
+.section-service {
+    flex:1;
+    text-align:center;
+    border-right:1px solid #333;
+    padding:15px;
+}
+.section-service:first-child {
+    border-left:1px solid #333;
+}
+.section-service h4 {
+    color: white;
+    margin-top:20px;
+    text-transform: uppercase;
+    font-size:18px;
+}
+.section-service p {
+    margin-top:10px;
+    font-size:15px;
+    color:#999;
+}
+}
+.sobrecurso {
+    background-color:  rgb(2, 128, 200);
+    color: white;
+    text-align: justify;
+}
+.sobrecurso h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+.sobrecurso .box {
+  
+    justify-content: center;
+    margin-left: 50px;
+    color:black;
+    font-size: 20px;
+    
+
+}
+.nota {
+    background-image: url(../img/fundo2.jpg);
+    height: 400px;
+    
+
+}
+.nota1 {
+    text-transform: uppercase;
+    padding: 20px;
+
+}
+.nota1 h2 {
+    margin:10px;
+    font-size: 30px;
+
+}
+.nota1 span{
+    background-color:rgba(243, 243, 46, 0.753);
+}
+
+.nota1 h3 {
+    font-size: 25px;
+    margin:10px;
+}
+.nota1 p {
+    font-size: 23px;
+    margin:15px;
+}
+.conteudo {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+.conteudo h2 {
+    text-align: center;
+    
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.conteudo h3 {
+    color: rgb(0, 119, 255);
+    cursor:pointer;
+    margin: 10px;
+    width: 70%;
+    border-bottom: 1px solid white;
+    padding: 15px 10px;
+}
+
+.cont1,.cont2,.cont3,.cont4,.cont5 {
+    display: none;
+}.pagamento {
+    padding-bottom: 20px;
+}
+.pagamento h3 {
+    background-color: yellow;
+    font-size:12pt;
+    text-align: center;
+    width:40%;
+    margin-left: 30%;
+
+}.pagamento p {
+    color:;
+    font-size:30pt;
+    text-align: center;
+    margin: 20px;
+
+}
+.pagamento span {
+    text-decoration:line-through;
+    color: red;
+    font-size: 20pt;
+   
+}
+.botao a {
+    text-decoration: none;
+    font-size: 16pt;
+    display: block;
+    background-color: rgb(246, 133, 40);
+    margin-left:120px;
+    width: 70%;
+    height: 4%;
+    text-align: center;
+    color: white;
+    padding-top : 15px;
+    border-radius: 25px;
+    
+    
+}
+.contato {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+.formulario{
+	max-width: 700px;
+	margin:30px auto;
+}
+
+.formulario input[type=text],
+.formulario input[type=email],
+.formulario input[type=tel]{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	margin:10px 0;
+	padding-left: 10px;
+}
+
+
+
+.formulario input[type=submit]{
+	background-color: #f75915;
+	cursor: pointer;
+	color: white;
+	padding: 10px 15px;
+	border:0;
+	width: 100%;
+}
+
+.formulario textarea{
+	width: 98%;
+	height: 120px;
+	border:1px solid #ccc;
+	padding: 10px;
+}
+.footer {
+    background-color: black;
+    color: white;
+}
